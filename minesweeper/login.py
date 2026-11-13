@@ -7,8 +7,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Need to move these to a "secrets" file so they are not committed to the repo.
-
 payload = {
     'email': os.environ['PUZZLE_EMAIL'],
     'password': os.environ['PUZZLE_PASSWORD']
